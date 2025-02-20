@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Свадебное Приглашеніе</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Great+Vibes&display=swap');
+
+      body {
+        font-family: 'Merriweather', serif;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.8)
+          ),
+          url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><text x="50%" y="50%" text-anchor="middle" font-size="10" fill="%23cccccc">СВАДЬБА</text></svg>');
+      }
+
+      .newspaper {
+        columns: 3;
+        column-gap: 40px;
+        background-color: white;
+        padding: 30px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border: 2px solid #333;
+      }
+
+      .header {
+        text-align: center;
+        border-bottom: 3px double #333;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+      }
+
+      .header h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 4em;
+        margin: 0;
+        color: #8b4513;
+      }
+
+      .header .subtitle {
+        font-style: italic;
+        color: #666;
+      }
+
+      .couple-photo {
+        width: 100%;
+        height: 400px;
+        background-image: url('./i.webp');
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+        margin-bottom: 20px;
+        border: 2px solid #333;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .couple-names {
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.5em;
+        text-align: center;
+        color: #8b4513;
+        margin: 20px 0;
+      }
+
+      .article-content {
+        text-align: justify;
+        hyphens: auto;
+        line-height: 1.6;
+      }
+
+      .details {
+        background-color: #f5deb3;
+        padding: 15px;
+        margin: 20px 0;
+        border: 1px dashed #8b4513;
+      }
+
+      .rsvp {
+        text-align: center;
+        font-weight: bold;
+        color: #8b4513;
+        margin-top: 20px;
+      }
+
+      .footnote {
+        font-size: 0.8em;
+        color: #666;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .page-number {
+        text-align: center;
+        font-size: 0.8em;
+        color: #666;
+        margin-top: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .newspaper {
+          columns: 2;
+          padding: 15px;
+        }
+
+        .header h1 {
+          font-size: 3em;
+        }
+
+        .couple-names {
+          font-size: 2em;
+        }
+
+        .article-content {
+          line-height: 1.4;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .newspaper {
+          columns: 1;
+          padding: 10px;
+        }
+
+        .header h1 {
+          font-size: 2.5em;
+        }
+
+        .couple-names {
+          font-size: 1.5em;
+        }
+
+        .details {
+          padding: 10px;
+        }
+
+        .rsvp {
+          font-size: 1.2em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Свадебное Приглашеніе</h1>
+      <div class="subtitle">Торжественное извѣщеніе о бракосочетаніи</div>
+    </div>
+
+    <div class="newspaper">
+      <div class="couple-photo"></div>
+
+      <div class="couple-names">Иванъ & Марія</div>
+
+      <div class="article-content">
+        <p>
+          Съ великою радостію и безмѣрнымъ восторгомъ извѣщаемъ васъ о семейномъ
+          торжествѣ - бракосочетаніи нашихъ возлюбленныхъ! Этот день станет
+          началом новой жизни, полной счастья, любви и взаимопонимания.
+        </p>
+
+        <p>
+          Мы с нетерпением ждем момента, когда сможем обменяться клятвами,
+          окруженные нашими близкими и любимыми. Каждый из вас для нас очень
+          важен и дорог, поэтому ваше присутствие сделает этот день ещё более
+          особенным.
+        </p>
+
+        <div class="details">
+          <p><strong>День торжества:</strong> 15 іюля 2024 года</p>
+          <p><strong>Время:</strong> Въ 14:00 по московскому времени</p>
+
+          <p>
+            <strong>Мѣсто:</strong> Залъ торжественныхъ церемоній, ул.
+            Счастливая, д. 10
+          </p>
+        </div>
+
+        <p>
+          Драгоцѣнные гости! Раздѣлите съ нами sacred радость и торжество любви.
+          Вашему присутствію будемъ безмѣрно признательны! Мы надеемся, что этот
+          день будет наполнен не только радостью, но и незабываемыми моментами,
+          которые останутся в наших сердцах навсегда.
+        </p>
+
+        <p>
+          По окончании церемонии приглашаем вас на праздничный банкет, где мы
+          сможем насладиться вкусной едой, танцами и хорошим настроением,
+          отмечая начало нашей новой жизни.
+        </p>
+
+        <div class="rsvp">Просимъ подтвердить присутствіе до 1 іюля</div>
+      </div>
+
+      <div class="footnote">
+        Съ почтеніемъ и любовью,<br />
+        Иванъ и Марія
+      </div>
+
+      <div class="page-number">Страница 1 изъ 2</div>
+    </div>
+  </body>
+</html>

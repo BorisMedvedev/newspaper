@@ -23,15 +23,18 @@
       .newspaper {
         columns: 3;
         column-gap: 40px;
-        background-color: white;
+        background-color: #fcf4eb;
         padding: 30px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        border: 2px solid #333;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        border: 1px solid #8b4513;
+        border-radius: 15px;
+        position: relative;
+        overflow: hidden;
       }
 
       .header {
         text-align: center;
-        border-bottom: 3px double #333;
+        border-bottom: 3px double #8b4513;
         margin-bottom: 20px;
         padding-bottom: 10px;
       }
@@ -56,8 +59,8 @@
         background-position: center;
         filter: grayscale(100%);
         margin-bottom: 20px;
-        border: 2px solid #333;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border: 2px solid #8b4513;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
       }
 
       .couple-names {
@@ -74,11 +77,14 @@
         line-height: 1.6;
       }
 
-      .details {
-        background-color: #f5deb3;
+      .details,
+      .menu,
+      .entertainment {
+        background-color: #fff8dc;
         padding: 15px;
         margin: 20px 0;
         border: 1px dashed #8b4513;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
 
       .rsvp {
@@ -173,9 +179,8 @@
         </p>
 
         <div class="details">
-          <p><strong>День торжества:</strong> 15 іюля 2024 года</p>
+          <p><strong>День торжества:</strong> 15 іюля 2025 года</p>
           <p><strong>Время:</strong> Въ 14:00 по московскому времени</p>
-
           <p>
             <strong>Мѣсто:</strong> Залъ торжественныхъ церемоній, ул.
             Счастливая, д. 10
@@ -188,6 +193,24 @@
           день будет наполнен не только радостью, но и незабываемыми моментами,
           которые останутся в наших сердцах навсегда.
         </p>
+
+        <div class="menu">
+          <p><strong>Меню на свадьбе:</strong></p>
+          <p>- Закуски: Канапе, Овощные тарелки, Фрукты</p>
+          <p>
+            - Основные блюда: Куриные грудки с соусом, Рыба запечённая с лимоном
+          </p>
+          <p>- Десерты: Торт в виде сердца, Тирамису, Капкейки</p>
+          <p>- Напитки: Вино, Шампанское, Безалкогольные коктейли</p>
+        </div>
+
+        <div class="entertainment">
+          <p><strong>Развлечения на свадьбе:</strong></p>
+          <p>
+            В программе вечера предусмотрены музыкальные выступления,
+            интерактивные игры, а также специальные сюрпризы для гостей!
+          </p>
+        </div>
 
         <p>
           По окончании церемонии приглашаем вас на праздничный банкет, где мы
